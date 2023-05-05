@@ -57,3 +57,4 @@ public class ThirdPersonMovement : MonoBehaviour
         //Поворот объекта на месте
         transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * (100f * Time.deltaTime), Space.Self);
     }
+}
